@@ -1,0 +1,233 @@
+.dataslab-container {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/08/00/30/nature-2609624_960_720.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    position: relative;
+    width: calc(100% + 20px);
+    height: calc(100vh - 35px);
+    left: -20px;
+    margin-bottom: -65px;
+    padding: 20px 20px 65px;
+    box-sizing: border-box;
+}
+
+.dataslab-container  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #0292b5;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.dataslab-container  .table-cls {
+    margin-right: 15px;
+    border-color: #0582b6;
+    color: #2c3338;
+    font-weight: 700;
+    border-spacing: 10px;
+    height: calc( 100% - 65px);
+    overflow-y: auto;
+}
+
+.dataslab-container  table {
+    border-collapse: collapse;
+    border-color: #358ccb;
+}
+
+.dataslab-container .table-cls a {
+    text-decoration: none;
+}
+
+.dataslab-container  tr th {
+    color: #0582b6;
+    padding: 5px 0;
+}
+
+.dataslab-container  #act {
+    border: none;
+    text-align: center;
+    transform: translateX(50%);
+}
+
+.dataslab-container  #act1 {
+    border: none;
+}
+
+.dataslab-container .tab tr td {
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+/* Update data page styles */
+.dataslab-update-container {
+    background: url(https://cdn.pixabay.com/photo/2017/02/14/03/03/ama-dablam-2064522_960_720.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100% + 20px );
+    left: -20px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+    margin-bottom: -65px;
+}
+
+.dataslab-update-container .page-container {
+    width: 800px;
+    margin-top: 65px;
+    margin-left: 200px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dataslab-update-container h1 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center;
+}
+
+.dataslab-update-container .form-tab {
+    width: 800px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.dataslab-update-container .name {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.dataslab-update-container .form-tab td input[type=text] {
+    display: block;
+    position: relative;
+    left: 50px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #1d2327;
+    margin: 20px 0 20px 0;
+}
+
+.dataslab-update-container .form-tab td input[type=tel] {
+    display: block;
+    position: relative;
+    left: 50px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #1d2327;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+
+.dataslab-update-container .form-tab td input[type=submit] {
+    background-color: #3baf9f;
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #3baf9f;
+    padding: 14px 100px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    margin-left: 50px;
+}
+
+.dataslab-update-container .form-tab td input[type=submit]:hover {
+    background-color: #5390f5;
+    border-color: #5390f5;
+}
+
+/* Loader styles */
+.dataslab-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffdb;
+    z-index: 9999;
+}
+.dataslab-loading img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Alert styling */
+.dataslab-alert {
+    position: fixed;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 800px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 2px #bbbbbb;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+.dataslab-alert button {
+    float: right;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-weight: 900;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: cursive;
+    cursor: pointer;
+}
+.dataslab-alert span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.dataslab-alert.success {
+    background-color: #4dad0cbd;
+}   
+.dataslab-alert.success span {
+    color: #ffffff;
+}
+.dataslab-alert.failed {
+    background-color: #ad260cbd;
+}
+.dataslab-alert.failed span {
+    color: #ffffff;
+}

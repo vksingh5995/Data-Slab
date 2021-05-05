@@ -1,0 +1,62 @@
+.dataslab-container {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/08/00/30/nature-2609624_960_720.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    position: relative;
+    width: calc(100% + 20px);
+    height: calc(100vh - 35px);
+    left: -20px;
+    margin-bottom: -65px;
+    padding: 20px 20px 65px;
+    box-sizing: border-box;
+}
+
+.dataslab-container  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #0292b5;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.dataslab-container  .table-cls {
+    margin-right: 15px;
+    border-color: #0582b6;
+    color: #2c3338;
+    font-weight: 700;
+    border-spacing: 10px;
+    height: calc( 100% - 65px);
+    overflow-y: auto;
+}
+
+.dataslab-container  table {
+    border-collapse: collapse;
+    border-color: #358ccb;
+}
+
+.dataslab-container .table-cls a {
+    text-decoration: none;
+}
+
+.dataslab-container  tr th {
+    color: #0582b6;
+    padding: 5px 0;
+}
+
+.dataslab-container  #act {
+    border: none;
+    text-align: center;
+    transform: translateX(50%);
+}
+
+.dataslab-container  #act1 {
+    border: none;
+}
+
+.dataslab-container .tab tr td {
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+}
